@@ -10,7 +10,7 @@
 
 <body>
  
-  <header class="flex relative items-center justify-between container px-7 mx-auto">
+  <header class="flex relative items-center justify-between container px-5 lg:px-7 mx-auto">
 
     <!--logo-->
     <div class="flex p-6 space-x-2 items-center">
@@ -52,6 +52,34 @@
 
     </div>
 
+    <!--mobile menu-->
+    <div class="md:hidden">
+      <div id="menu" class="hidden absolute  p-6 left-6 right-6 top-20 space-x-2 items-center drop-shadow-xl md:hidden  flex-col  sm:w-auto bg-white font-bold">
+        <a href="#" class="group text-black font-bold inline-block  hover:text-orange-600">
+          About us
+          <div class="h-0.5 w-0 group-hover:w-full m-auto transition-all duration-300 rounded-lg bg-orange-600"></div>
+        </a>
+
+
+        <a href="#" class="group text-black font-bold inline-block  hover:text-orange-600">
+          Services
+          <div class="h-0.5 w-0 group-hover:w-full m-auto transition-all duration-300 rounded-lg bg-orange-600"></div>
+        </a>
+
+        <a href="#" class="group text-black font-bold inline-block  hover:text-orange-600">
+          Contact Us
+          <div class="h-0.5 w-0 group-hover:w-full m-auto transition-all duration-300 rounded-lg bg-orange-600"></div>
+        </a>
+
+        <a href="#" class="group text-black font-bold inline-block  hover:text-orange-600">
+          Docs
+          <div class="h-0.5 w-0 group-hover:w-full m-auto transition-all duration-300 rounded-lg bg-orange-600"></div>
+        </a>
+
+      </div>
+  </div>
+   
+
     <!--Subscrib button-->
 
     <button class="bg-orange-600 h-9 hidden md:block hover:shadow-md px-4 rounded-full text-white  font-bold">Subscribe</button>
@@ -64,32 +92,7 @@
       <span class="hambergur-bottom"></span>
     </button>
 
-    <!--mobile menu-->
-    <div class="md:hidden">
-        <div id="menu" class="hidden absolute p-6 left-6 right-6 top-20 space-x-2 items-center drop-shadow-xl md:hidden  flex-col  sm:w-auto bg-white font-bold">
-          <a href="#" class="group text-black font-bold inline-block  hover:text-orange-600">
-            About us
-            <div class="h-0.5 w-0 group-hover:w-full m-auto transition-all duration-300 rounded-lg bg-orange-600"></div>
-          </a>
-
-
-          <a href="#" class="group text-black font-bold inline-block  hover:text-orange-600">
-            Services
-            <div class="h-0.5 w-0 group-hover:w-full m-auto transition-all duration-300 rounded-lg bg-orange-600"></div>
-          </a>
-
-          <a href="#" class="group text-black font-bold inline-block  hover:text-orange-600">
-            Contact Us
-            <div class="h-0.5 w-0 group-hover:w-full m-auto transition-all duration-300 rounded-lg bg-orange-600"></div>
-          </a>
-
-          <a href="#" class="group text-black font-bold inline-block  hover:text-orange-600">
-            Docs
-            <div class="h-0.5 w-0 group-hover:w-full m-auto transition-all duration-300 rounded-lg bg-orange-600"></div>
-          </a>
-
-        </div>
-    </div>
+    
   </header>
 
 
